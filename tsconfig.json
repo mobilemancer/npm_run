@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "noImplicitAny": true,
+        "outDir": "wwwroot/app",
+        "rootDir": "app",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

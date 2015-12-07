@@ -1,0 +1,20 @@
+// A task runner configuration for npm scripts.
+{
+	"version": "0.1.0",
+	"command": "npm",
+	"isShellCommand": true,
+	"args": [
+		"run"
+	],
+	"tasks": [
+		{
+			"taskName": "build",
+			// Make this the default build command.
+			"isBuildCommand": true,
+			// Show the output window only if unrecognized errors occur.
+			"showOutput": "silent",
+			// Use the standard less compilation problem matcher.
+			"problemMatcher": "$msCompile"
+		}
+	]
+}

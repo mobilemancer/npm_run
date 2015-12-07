@@ -1,0 +1,11 @@
+{
+	"version": "1.0.0",
+	"name": "NPM_Build_Scripting_Magic",
+	"private": true,
+	
+	"scripts": {
+		"compileTS": "tsc",
+		"copyHtml": "copyHtml.bat",
+		"build": "npm run compileTS | npm run copyHtml"
+	}
+}

@@ -1,0 +1,1 @@
+xcopy app\*.html wwwroot\app\ /s /e /y
